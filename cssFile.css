@@ -1,0 +1,51 @@
+#heading
+{
+text-align:center;
+font-family:Lucida Sans Unicode;
+color: black;
+}
+input
+{
+margin:auto;
+display:inline;
+padding:2px, 25px, 2px, 5px;
+color:blue;
+border:solid, 1px;
+height:30px;
+}
+.butn
+{
+margin:auto;
+background-color:#b3ccff; 
+background: linear-gradient(#cce5ff, #e6f2ff);
+border:solid 0.5px  #ffe6e6;
+border-radius:25px;
+color:#e6005c;
+height:30px;
+width:190px;
+font-family:Lucida Sans Unicod;
+font-weight:bold;
+float:left;
+}
+#field
+{
+margin:auto;
+width:50%;
+border-style:inset;
+border-width: 4px, 4px, 4px, 4px;
+background: linear-gradient(#ffffe6, #ccfff5);
+background-color:#e6fff3;
+border-color:#ff66ff;
+color:black;
+font-family: ‘Lucida Console’, Monaco, monospace;
+font-size:25px;
+text-align:left;
+}
+#num
+{
+width:250px;
+}
+#para
+{
+text-align: left;
+}

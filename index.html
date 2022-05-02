@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<title>
+Unit Conversion
+</title>
+<link rel="stylesheet" href="cssFile.css"></link>
+</head>
+<body>
+<h1 id="heading">
+Unit Conversion<br>
+</h1>
+<hr>
+<fieldset id="field">
+<h2>Conversion</h2>
+<hr>
+<label>Enter Numbers:<input  type="text" id="input"   placeholder="Enter number for conversion" pattern="^[0-9]$" autofocus></label><br><br>
+<input class="butn" type="button" value="Celsius to Fahrenheit" onclick="toFahrenheit()"><br>
+<input class="butn" type="button" value="Fahrenheit to Celsius" onclick="toCelsius()"><br>
+<input class="butn" type="button" value="Feet to Meters" onclick="toMeters()"><br>
+<input class="butn" type="button" value="Meters to Feet" onclick="toFeet()"><br>
+<input class="butn" type="button" value="Inches to Centimeters" onclick="toCentimeters()"><br>
+<input class="butn" type="button" value="Centimeters to Inches" onclick="toInches()"><br>
+<input class="butn" type="button" value="Pounds to Kilograms" onclick ="toKilograms()"><br>
+<input class="butn" type="button" value="Kilograms to Pounds" onclick="toPounds()"><br>
+<input class="butn" type="button" value="Clear" onclick="Clear();"><br>
+<p id="para">Result here:</p>
+<script src="scripts.js">	
+</script>
+</fieldset>
+</body>
+</html>
